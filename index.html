@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>The・ゼミ面接！</title>
+<meta name="viewport" content="initial-scale=1.0">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+<div id="container">
+<!-- スタート画面 -->
+<h1>The・ゼミ面接！<br><small>Click to start!<br>Created by 檀ゼミ 第8期生</small></h1>
+<img id="student" src="./k_student.png" alt="志願学生">
+<img id="dan" src="./k_dan.png" alt="ゼミ教員">
+<div id="message">
+<p id="main">ここをクリックすると進行します。</p>
+<p id="next">▼</p>
+</div>
+<nav>
+<ul>
+<li id="a1"><a href="#">選択肢１</a></li>
+<li id="a2"><a href="#">選択肢２</a></li>
+<li id="a3"><a href="#">選択肢３</a></li>
+</ul>
+</nav>
+<audio id="bgm" loop>
+<source src="./interview_B.mp3" type="audio/mp3">
+<source src="./interview.ogg" type="audio/ogg">
+<source src="./interview.aac" type="audio/aac">
+</audio>
+</div>
+<script src="./game.js"></script>
+</body>
+</html>
